@@ -38,11 +38,11 @@ http://help.mycommerce.com/mycommerce-apis
 
 =head1 VERSION
 
-version 1.0.1
+version 1.0.2
 
 =cut
 
-our $VERSION = '1.0.1';
+our $VERSION = '1.0.2';
 
 =head1 METHODS 
 
@@ -81,6 +81,17 @@ Return a new orders-scope API resource
 sub orders {
   my ($self, %args) = @_;
   return Net::MyCommerce::API::Resource::Orders->new(%args);
+}
+
+=head2 par (%args)
+
+Return a new payments-scope API resource
+
+=cut
+
+sub par {
+  my ($self, %args) = @_;
+  return Net::MyCommerce::API::Resource::PAR->new(%args);
 }
 
 =head2 products (%args)
