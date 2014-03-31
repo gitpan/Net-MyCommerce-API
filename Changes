@@ -1,5 +1,8 @@
 Revision history for Net-MyCommerce-API
 
+1.0.3   2014-03-31
+        Bug fix: add PAR to API.pm and update 00-load.t
+
 1.0.2   2014-03-28
         Added Payment Account Resource
 

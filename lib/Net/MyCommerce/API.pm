@@ -19,6 +19,7 @@ use warnings;
 use Net::MyCommerce::API::Resource;
 use Net::MyCommerce::API::Resource::Carts;
 use Net::MyCommerce::API::Resource::Orders;
+use Net::MyCommerce::API::Resource::PAR;
 use Net::MyCommerce::API::Resource::Products;
 use Net::MyCommerce::API::Resource::Vendors;
 
@@ -38,11 +39,11 @@ http://help.mycommerce.com/mycommerce-apis
 
 =head1 VERSION
 
-version 1.0.2
+version 1.0.3
 
 =cut
 
-our $VERSION = '1.0.2';
+our $VERSION = '1.0.3';
 
 =head1 METHODS 
 

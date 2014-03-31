@@ -13,6 +13,7 @@ lib/Net/MyCommerce/API/Resource.pm
 lib/Net/MyCommerce/API/Token.pm
 lib/Net/MyCommerce/API/Resource/Carts.pm
 lib/Net/MyCommerce/API/Resource/Orders.pm
+lib/Net/MyCommerce/API/Resource/PAR.pm
 lib/Net/MyCommerce/API/Resource/Products.pm
 lib/Net/MyCommerce/API/Resource/Vendors.pm
 t/00-load.t
