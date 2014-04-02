@@ -60,7 +60,7 @@ sub request {
   return $self->SUPER::request(%opts);
 }
 
-=head2 create_par
+=head2 create_par (%opts)
 
 Create a new Payment Account Resource
 
@@ -88,13 +88,13 @@ sub create_par {
   );  
 }
 
-=head2 update_par
+=head2 update_par (%opts)
 
 Update Payment Account Resource
 
 =cut
 
-sub update_cart {
+sub update_par {
   my ($self, %opts) = @_;
   return $self->request(
     method => 'POST',
@@ -112,7 +112,7 @@ sub update_cart {
   );  
 }
 
-=head2 get_par
+=head2 get_par (%opts)
 
 Retrieve an existing Payment Account Resource
  
@@ -131,6 +131,5 @@ sub get_par {
   );
   return ($error, $result);
 }
-
 
 1;

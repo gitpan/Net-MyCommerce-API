@@ -39,11 +39,11 @@ http://help.mycommerce.com/mycommerce-apis
 
 =head1 VERSION
 
-version 1.0.3
+version 1.0.4
 
 =cut
 
-our $VERSION = '1.0.3';
+our $VERSION = '1.0.4';
 
 =head1 METHODS 
 
